@@ -5,7 +5,7 @@ let tileImgProps = {
 
 let tileSetData;
 let tileSet
-let DIM = 10;
+let DIM = 5;
 let grid;
 let finished = false;
 

@@ -1,0 +1,48 @@
+<set>
+    <verticeMetaData>
+        <verticeCode code="A" description="Grey" />
+        <verticeCode code="B" description="Green" />
+    </verticeMetaData>
+    <tiles>
+        <tile name='corner-lt' path='corner.png' turnable="true">
+            <vertices>
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+                <vertice code="AAA" />
+                <vertice code="AAA" />
+            </vertices>
+        </tile>
+        <tile name='cross-h' path='cross.png'>
+            <vertices>
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+            </vertices>
+        </tile>
+        <tile name='empty' path='empty.png'>
+            <vertices>
+                <vertice code="AAA" />
+                <vertice code="AAA" />
+                <vertice code="AAA" />
+                <vertice code="AAA" />
+            </vertices>
+        </tile>
+        <tile name='line' path='line.png' turnable="true">
+            <vertices>
+                <vertice code="AAA" />
+                <vertice code="ABA" />
+                <vertice code="AAA" />
+                <vertice code="ABA" />
+            </vertices>
+        </tile>
+        <tile name='t-down' path='t.png' turnable="true">
+            <vertices>
+                <vertice code="AAA" />
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+                <vertice code="ABA" />
+            </vertices>
+        </tile>
+    </tiles>
+</set>
